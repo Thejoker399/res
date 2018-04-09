@@ -7,11 +7,21 @@ body {
 img {
     width: 100%;
 }
+p{ 
+    margin: 15px 0px 0px 20px;
+}
 .rowimg{
     width: 100%;
     height: auto;
     background-image: url('photo.jpg');
     background-size: cover;/*ให้เหมือนตัวที่มีอยู่แล้ว*/
+}
+.bg-green{
+    background-color: mediumturquoise;
+    
+}
+.font-color{
+    color: white;
 }
 .circle{ /* ชื่อคลาสต้องตรงกับ <img class="circle"... */
     border-radius: 50%; /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
@@ -52,12 +62,9 @@ img {
     position:relative;/*การกำหนดคอลัม*/
     float:left;/*สั่งให้ชิดซ้าย*/
     width:50%;/*ขนาดคอลัม*/
-    margin: 15px 0px 0px 5px;
 }
 .col2{
     position:relative; /*การกำหนดคอลัม*/
     float:right; /*สั่งให้ชิดขวา*/
     width:50%; /*ขนาดคอลัม*/ 
-    margin: 15px 0px 0px 5px;
-     
 }
