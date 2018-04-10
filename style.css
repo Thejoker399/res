@@ -2,7 +2,7 @@
 body {
     width: 21cm;
     height: 29.7cm;
-    margin: 40px 200px;
+    margin: 50px 200px 0px;
 }
 img {
     width: 100%;
@@ -15,7 +15,7 @@ p{
     width: 100%;
     height: auto;
     background-image: url('photo.jpg');
-    background-size: cover;/*ให้เหมือนตัวที่มีอยู่แล้ว*/
+    background-size: cover;
 }
 .bg-green{
     background-color: mediumturquoise;
@@ -69,7 +69,7 @@ p{
 }
 .col2{
     position:relative; /*การกำหนดคอลัม*/
-    float:right; /*สั่งให้ชิดขวา*/
+    float: left;; /*สั่งให้ชิดขวา*/
     width:50%; /*ขนาดคอลัม*/
     height: 800px;
 }
