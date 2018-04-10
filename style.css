@@ -8,7 +8,7 @@ img {
     width: 100%;
 }
 p{ 
-    margin: 15px 0px 0px 20px;
+    margin: 15px 0px 0px 25px;
 }
 .rowimg{
     width: 100%;
@@ -66,5 +66,14 @@ p{
 .col2{
     position:relative; /*การกำหนดคอลัม*/
     float:right; /*สั่งให้ชิดขวา*/
-    width:50%; /*ขนาดคอลัม*/ 
+    width:50%; /*ขนาดคอลัม*/
 }
+.bg-color{
+    background-color: mediumturquoise;
+}
+.clear-both {
+    clear: both;
+  }
+  .height-285 {
+    height: 285px;
+  }
